@@ -74,75 +74,10 @@
   
   <?php
 
+  include 'nav.php';
   include 'conexao.php';
 
   ?>
-
-	<div class="container-fluid no-padding">
- 	   <div class="container-fluid no-padding img-header" style="background: #000; height: 32px;" id="inicio">		
-              <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                    </div>
-                    <div class="col-md-9">
-                        <ul class="list-inline pull-right">
-                          <li class="list-inline-item">
-									  <i class="fa fa-phone-square" aria-hidden="true" style="font-size:20px; color:#fff;"></i>
-								  </li>
-                          <li class="list-inline-item pr-4" style="font-size: 18px; line-height: 32px; font-weight: 600; color: #fff; font-weight: 500;">
-									  24 3323-1040 / 33238-6600
-									</li>
-                          <li class="list-inline-item">
-									  <i class="fa fa-envelope-square" aria-hidden="true" style="font-size:20px; color:#fff;"></i>
-                          </li>
-                          <li class="list-inline-item pr-4" style="font-size: 20px; line-height: 32px; font-weight: 600; color: #fff; font-weight: 500;">
-									  contato@administranegocios.com.br
-                          </li>
-                          <li class="list-inline-item">
-                          <a href="#"><i class="fab fa-facebook-f pr-3" style="font-size: 16px; color: #fff;"></i></a>
-                          </li>
-                          <li class="list-inline-item">
-                          <a href="formLogon.php"><i class="fas fa-lock" style="font-size: 16px; color: #fff;"></i></a>
-                          </li>
-                        </ul>				
-                    </div>
-                </div>
-            </div>
-    </div>
-
-		<!-- Menu -->
-		<nav class="navbar navbar-expand-sm navbar-light bg-faded" style="background:#fff;">
-            <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Brand -->
-            <a class="navbar-brand" href="index.php">
-                <img src="img/logo_administra_padrao.png" width="220">
-            </a>
-            <!-- Links -->
-            <div class="collapse navbar-collapse justify-content-end" id="nav-content">   
-                <ul class="navbar-nav" style="font-size: 21px; font-weight: 600;">
-                    <li class="nav-item">
-                    <a class="nav-link ml-4 scroll" href="#inicio">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link ml-4 scroll" href="#empresa">Empresa</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link ml-4 scroll" href="#imoveis">Im&oacute;veis</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link ml-4 scroll" href="#servicos">Servi&ccedil;os</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link ml-4 scroll" href="#contato">Contato</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-		</nav>
-	</div>        
 
 		<!-- Topo -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

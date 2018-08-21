@@ -5,7 +5,11 @@
 	  <!-- Required meta tags -->
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<<<<<<< HEAD
 	<title>Administra Neg&oacute;cios</title>
+=======
+	  <title>Administra Neg&oacute;cios</title>
+>>>>>>> 71953978f5f66ea738a644698e37e705c49e1dbb
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="src/css/bootstrap.css">
@@ -65,6 +69,16 @@
     });
     </script>
 
+<<<<<<< HEAD
+=======
+		<script type="text/javascript">
+		<!--
+		function abreJanela(URL) {
+		location.href = URL; // se for popup utiliza o window.open
+		}
+		</script>
+
+>>>>>>> 71953978f5f66ea738a644698e37e705c49e1dbb
 	</head>
     
 <body data-spy="scroll" data-target=".navbar" data-offset="150">
@@ -74,6 +88,7 @@
   include 'conexao.php';
 
   ?>
+<<<<<<< HEAD
 	<div class="container-fluid bg-dark">  
 	<div class="container">
 	  <ul class="nav justify-content-end py-2">
@@ -94,12 +109,39 @@
 	  </li>
 	</ul>
 	</div>
+=======
+
+  	<div class="container-fluid bg-dark">  
+	  	<div class="container">
+	  		<ul class="nav justify-content-end py-2">
+	  			<li class="nav-item">
+	  				<a class="nav-link text-white font-weight-normal display-5 border-right scroll" href="#contato">Central de Atendimento (24) 3323-1040 / 3328-6600</a>
+	  			</li>
+	  			<li class="nav-item">
+	  				<a class="nav-link text-white font-weight-normal display-5 border-right" href="http://api.whatsapp.com/send?1=pt_BR&phone=5524988731040"><img src="img/whatsapp-24.png" style="margin-top:-4px;">    Venda (24) 98873-1040</a>
+	  			</li>
+	  			<li class="nav-item">
+	  				<a class="nav-link text-white font-weight-normal display-5" href="#"><img src="img/facebook-24.png" style="margin-top:-4px;"></a>
+	  			</li>
+	  			<li class="nav-item">
+	  				<a class="nav-link font-weight-normal display-5" href="https://www.instagram.com/aministranegocios/"><img src="img/instagram-24.png" style="margin-top:-4px;"></a>
+	  			</li>
+	  			<li class="nav-item">
+	  				<a class="nav-link font-weight-normal text-white display-5" href="formLogon.php"><i class="fas fa-lock" style="margin-top:-4px;"></i></a>
+	  			</li>
+	  		</ul>
+	  	</div>
+>>>>>>> 71953978f5f66ea738a644698e37e705c49e1dbb
 	</div>
 
 	<div class="container-fluid no-padding">
 		<!-- Menu -->
 		<nav class="navbar navbar-expand-sm navbar-light bg-faded" style="background:#fff;">
+<<<<<<< HEAD
             <div class="container">
+=======
+            <div class="container my-2">
+>>>>>>> 71953978f5f66ea738a644698e37e705c49e1dbb
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -131,6 +173,7 @@
 		</nav>
 	</div>        
 
+<<<<<<< HEAD
 		<!-- Topo -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -161,6 +204,10 @@
           </a>
         </div>        
 
+=======
+
+<!--  -->
+>>>>>>> 71953978f5f66ea738a644698e37e705c49e1dbb
 	<div class="container-fluid  bg-color-2">	
 		<div class="container">
 			<div class="row">
@@ -170,6 +217,7 @@
 	</div>	
 		
 	<div class="container-fluid py-3">
+<<<<<<< HEAD
 		<div class="container pt-2" style="background: #f1f1f1;">
 			<form action="busca.php" method="post" enctype="multipart/form-data" target="_self" id="formBusca">
 				<div class="form-row">
@@ -194,21 +242,63 @@
 	 	         <div class="form-group col-md-3">
 		            <label for="inputState">Cidade</label>
 		            <select name="cidade" class="form-control">
+=======
+		<div class="container py-3" style="background: #f1f1f1;">
+			<form action="busca1.php" method="POST" enctype="multipart/form-data" target="_self" id="formBusca">
+				<div class="form-row">
+					<div class="form-group col-md-4">
+					  <label for="inputEmail4">Palavra-chave</label>
+					  <input name="nome_curso" id="busca" type="text" class="form-control" placeholder="Digite a palavra chave">
+					</div>
+	 	         <div class="form-group col-md-4">
+		            <label for="inputState">Cidade</label>
+		            <select name="conteudo_curso" class="form-control">
+>>>>>>> 71953978f5f66ea738a644698e37e705c49e1dbb
 		              <option selected>Selecione</option>
 		                <?php
 		                $consulta = $conexao->query("SELECT * FROM imoveis GROUP BY cidade"); 
 		                while ($exibe = $consulta->fetch(PDO::FETCH_ASSOC)) {
 		                ?>
+<<<<<<< HEAD
 		              <option><?php echo $exibe['busca'];?>
+=======
+		              <option><?php echo $exibe['cidade'];?>
+>>>>>>> 71953978f5f66ea738a644698e37e705c49e1dbb
 		              </option>
 		                <?php } ?>
 		              </select>
 		          </div>
+<<<<<<< HEAD
 					<div class="form-group col-md-3">
 					  <label for="inputState">Bairro</label>
 					  <input type="email" class="form-control" id="inputEmail4" placeholder="Digite o bairro">
 					</div>
 					<div class="form-group col-md-3">
+=======
+
+ 	 	         <div class="form-group col-md-4">
+		            <label for="inputState">Tipo de Negócios</label>
+		            <select name="paginas" onchange="javascript: abreJanela(this.value)" class="form-control">
+			            <option selected>Selecione</option>
+							<option value="busca.php">VENDA</option>
+							<option value="cadastroImovel.php">ALUGUEL</option>
+	              	</select>
+		          </div>
+ 	 	         <div class="form-group col-md-4">
+		            <label for="inputState">Tipo de Negócios</label>
+		            <select name="paginas" onchange="javascript: abreJanela(this.value)" class="form-control">
+			            <option selected>Selecione</option>
+							<option value="busca.php">VENDA</option>
+							<option value="cadastroImovel.php">ALUGUEL</option>
+	              	</select>
+		          </div>
+<!--				<div class="form-row">
+ 					<div class="form-group col-md-3">
+					  <label for="inputState">Bairro</label>
+					  <input type="email" class="form-control" id="inputEmail4" placeholder="Digite o bairro">
+					</div>
+ -->					<div class="form-group col-md-4">
+>>>>>>> 71953978f5f66ea738a644698e37e705c49e1dbb
 					  <label for="inputState">Faixa de Valor</label>
 					  <select id="inputState" class="form-control">
 						<option selected>Selecione</option>
@@ -224,11 +314,19 @@
 						<option>R$ 600.000,00 </option>
 					  </select>
 					</div>
+<<<<<<< HEAD
 					<div class="form-group col-md-3">
 							 <button type="submit" class="btn btn-primary px-4 py-1 float-right" style="margin-top: 30px !important; font-size: 20px; background: #d50000; border: #000;">Buscar im&oacute;veis</button>
 					</div>
 				</div>
 			<form>	
+=======
+					<div class="form-group col-md-4">
+							 <button type="submit" class="btn btn-primary px-4 py-1 float-right" style="margin-top: 30px !important; font-size: 20px; background: #d50000; border: #000;">Buscar im&oacute;veis</button>
+					</div>
+				</div>
+			</form>
+>>>>>>> 71953978f5f66ea738a644698e37e705c49e1dbb
 		</div>	
 	</div>			
 		
@@ -278,7 +376,11 @@
           ?> 
 
 				<div class="col-sm-4 col-md-4 pl-1 pb-5">
+<<<<<<< HEAD
 					<a href="detalhes.php?id=<?php echo $mostra->id;?>" style="text-decoration: none;">
+=======
+					<a href="detalhes2.php?id=<?php echo $mostra->id;?>" style="text-decoration: none;">
+>>>>>>> 71953978f5f66ea738a644698e37e705c49e1dbb
 					<div class="hoverzoom" style="box-shadow: 0 0 5px rgba(0,0,0,0.2);">
 						<img src="upload/<?php echo $mostra->foto1;?>" class="img-fluid">
 						<div class="retina" style="padding: 0px;">
