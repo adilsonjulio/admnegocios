@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_lancamento" value="name:id;datatype:int,name:lancamento;datatype:int,name:tipo;datatype:string,name:titulo;datatype:string,name:descricao;datatype:blob,name:preco;datatype:real,name:fotoSlide;datatype:string,name:foto1;datatype:string,name:foto2;datatype:string,name:foto3;datatype:string,name:foto4;datatype:string,name:foto5;datatype:string,name:foto6;datatype:string,name:foto7;datatype:string,name:foto8;datatype:string,name:foto9;datatype:string,name:foto10;datatype:string" />
+	<infoitem key="UD_busca" value="name:id;datatype:int,name:lancamento;datatype:int,name:tipo;datatype:string,name:titulo;datatype:string,name:descricao;datatype:blob,name:preco;datatype:real,name:fotoSlide;datatype:string,name:foto1;datatype:string,name:foto2;datatype:string,name:foto3;datatype:string,name:foto4;datatype:string,name:foto5;datatype:string,name:foto6;datatype:string,name:foto7;datatype:string,name:foto8;datatype:string,name:foto9;datatype:string,name:foto10;datatype:string" />
+</info>

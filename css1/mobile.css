@@ -1,0 +1,12 @@
+@media (max-width: 390px){
+    html{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 768px){
+    #vantagens .row img {
+        margin-bottom: 15px;
+    }
+}

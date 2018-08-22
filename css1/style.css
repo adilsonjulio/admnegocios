@@ -1,0 +1,234 @@
+body {
+	background:#FFF;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-roxo{
+    background: #563d7c;
+}
+
+.topo{
+    padding: 50px 0px;
+    background: url("../img/bg-header.png");
+    min-height: 440px;
+}
+
+.divisor-white{
+    width: 30px;
+    margin: 25px auto;
+    border-top: 3px solid white;
+}
+
+.divisor-vermelho{
+    width: 80px;
+    margin: 25px auto;
+    border-top: 3px solid #D50000;
+}
+
+.divisor-branco{
+    width: 80px;
+    margin: 25px auto;
+    border-top: 3px solid #fff;
+}
+
+.divisor-preto{
+    width: 30px;
+    margin: 15px auto;
+    border-top: 2px solid #000;
+}
+
+.text-color1{
+    color: #D50000;
+}
+
+.text-color2{
+    color: #fff;
+}
+
+.card-subtitle{
+    min-height: 35px
+}
+
+.circle-number{
+    background: #C10A0D;
+    width: 68px;
+    height: 68px;
+    line-height: 64px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.metodo{
+    display: inline-block;
+    border: 1px solid #5d5d5d;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #5d5d5d;
+}
+
+#slider .carousel-indicators li{
+    border: 2px solid #563d7c;
+}
+
+#slider .carousel-indicators li.active{
+    background: #563d7c;
+}
+
+
+#slider{
+    padding-bottom: 50px;
+}
+
+#slider .carousel-indicators{
+    bottom: 10px;
+}
+
+.aspas{
+    color: rgba(93, 93, 93, 0.33);
+}
+
+#slider p{
+    min-height: 100px;
+}
+
+.bg-gray{
+    background: #eee;
+}
+
+.nav-link {
+    color: #D50000 !important;
+}
+
+#menu .nav-link{
+    font-weight: bold;
+}
+
+#menu .nav-link.active{
+    border-bottom: 3px solid white;
+}
+
+#videoModal .modal-body{
+    padding: 0px;
+}
+
+//BOOTSTRAP PERSONALIZADO
+.list-group-item {
+    background-color: #2a2c32 !important;
+}
+
+.no-padding {
+    margin: 0;
+    padding: 0;
+}
+
+.modal-header {
+    background: #D50000;
+}
+
+.modal-title {
+    color: #fff;
+    font-weight: 600;
+}
+
+.modal-header .close {
+    color: #fff;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    background: #000;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(0,000,000,.0);
+}
+
+/*
+.retina a {
+	background-color: transparent !important;
+}
+*/
+	
+.hoverzoom {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hoverzoom > img {
+    width: 100%;
+    border-radius: 0px;
+        -webkit-transition: all 0.45s ease 0s;
+	    -moz-transition: all 0.45s ease 0s;
+	     -ms-transition: all 0.45s ease 0s;
+	      -o-transition: all 0.45s ease 0s;
+	         transition: all 0.45s ease 0s;
+}
+
+
+.hoverzoom:hover > img {
+	background: image()
+	   -moz-transform: scale(1.03);
+	    -ms-transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	     -o-transform: scale(1.03);
+	        transform: scale(1.03);
+}
+
+.hoverzoom .retina{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;    
+    background: #000;    
+    border-radius: 0px;
+    text-align: center;
+    padding: 30px;
+	-webkit-transition:	 all 0.45s ease 0s;
+	-moz-transition: all 0.45s ease 0s;
+	-ms-transition: all 0.45s ease 0s;
+	-o-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s;
+}
+
+.hoverzoom:hover .retina {
+    opacity: .8;
+/*    box-shadow: inset 0 0 100px 50px rgba(0,0,0,.5); */
+}
+
+.hoverzoom .retina p {
+	color: #fff;
+}
+
+.hoverzoom .retina a {
+	display: block;
+	width: 180px;
+	background: #000;
+	border: 0px solid #fff;
+	border-radius: 4px;
+	color: #fff;
+	font: 20px;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 15px;
+	margin: 60px auto 0;
+    -webkit-transition: 0.2s ease-in-out;
+    -webkit-transform: scale(1.05);
+    -webkit-box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.fa-chevron-circle-up {
+	color: #D63439!important;
+	font-size: 50px !important;
+	float: right;
+	padding-bottom: 20px;
+}
+

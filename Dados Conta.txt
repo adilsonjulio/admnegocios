@@ -1,0 +1,10 @@
+PAINEL DE CONTROLE
+
+Domínio: administranegocios.com.br
+
+Usuário: adilsonjuliosilva@gmail.com
+Senha: administra123
+
+BANCO DE DADOS MYSQL
+Usuário: administranego
+Senha: adm1234

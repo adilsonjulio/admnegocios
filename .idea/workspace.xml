@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="145eb127-6a80-4cae-9a6d-091bbbf93538" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Administra Imobiliaria.ste" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Connections/administranego.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cópia_de_segurança_de_adilson contador (2016_09_11 20_41_23 UTC).cdr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dados  de acesso painel de controle Kinhost Administra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nota Fiscal.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_mmServerScripts/MMHTTPDB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_mmServerScripts/mysql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_notes/.mno" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_notes/alterar.php.mno" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_notes/busca.php.mno" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_notes/detalhes.php.mno" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_notes/detalhes1.php.mno" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_notes/detalhes2.php.mno" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_notes/detalhes3.php.mno" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_notes/menu.php.mno" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adilson contador (2016_09_11 20_41_23 UTC).cdr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/administranego.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/administranego.ste" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/1-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/1-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/1-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/1-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/1-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/1-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/1-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/1-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/2-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/2-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/3-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/3-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/3-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/3-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/5-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/big/2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/big/2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/big/2-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/big/2-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/forkme-on-github-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/medium/2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/medium/2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/medium/2-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/medium/2-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/small/2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/small/2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/small/2-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/small/2-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/small/4-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/small/4-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/small/4-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/small/4-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/1-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/1-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/1-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/1-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/1-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/1-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/1-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/1-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/2-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/2-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/3-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/3-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/3-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/3-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/4-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/4-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/4-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/4-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/img/thumbs/5-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/demo/js/highlight.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/dist/baguetteBox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/dist/baguetteBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/dist/baguetteBox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/dist/baguetteBox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/src/baguetteBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baguetteBox.js-dev/src/baguetteBox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cad_usuario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detalhes1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detalhes2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detalhes3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detalhes4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excluirRegistro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancyBox3/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/clean/gallery-clean.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/clean/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/fluid/fluid-gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/fluid/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/grid/gallery-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/grid/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/images/benches.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/images/bridge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/images/coast.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/images/park.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/images/rails.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/images/rocks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/images/sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/images/traffic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/images/tunnel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/thumbnail/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freebie-4-bootstrap-gallery-templates/thumbnail/thumbnail-gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Ajuste_banner_slide.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/IMG-20171130-WA0084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/WhatsApp Image 2017-11-22 at 16.50.50.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/casa1-detalhe-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/casa1-detalhe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/casa1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/casa2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/casa3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/casa4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/casa5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/casa6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/chacara_sao_lourencoSlide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contabil1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/creci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/creci1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/derlan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/imagem1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/imagem2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/imagem3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-im-mx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_administra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_administra_empresa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_administra_padrao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_consultoria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_edificacoes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_edificacoes_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_padrao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thumb modelo.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thumb1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thumb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thumb3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thumb4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thumb5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thumb6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/vantagem-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/vantagem-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/vantagem-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/vantagem-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inserirRegistro_teste.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery-maskmoney-master/src/jquery.maskMoney.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/land.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script-adm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script-administra.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/examples-bootstrap/bootstrap-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/examples-bootstrap/bootstrap-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/examples-bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/examples-bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/examples-bootstrap/docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/examples-bootstrap/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/examples-bootstrap/terms-of-use.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/1300x500/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/1300x500/002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/1300x500/003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/980x380/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/980x380/002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/980x380/003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/980x380/004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/gallery/1300x500/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/gallery/1300x500/002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/gallery/1300x500/003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/gallery/980x380/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/gallery/980x380/002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/gallery/980x380/003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/img/gallery/980x380/004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/js/jssor.slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/svg/loading/static-svg/spin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.carousel.slider.for.bootstrap.example/terms-of-use.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/banner-rotator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/banner-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/carousel-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/different-size-photo-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/full-width-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/full-window-for-mobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/full-window-for-pc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/grid-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/image-gallery-with-vertical-thumbnail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/image-gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/image-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/introduction-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/nearby-image-partial-visible-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/nested-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/responsive-slider-div-span.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/responsive-slider-float-text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/scrolling-logo-thumbnail-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/simple-fade-slideshow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/tab-slider-text-vertical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/tab-slider-text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/thumbnail-navigator-with-arrows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos-jquery/vertical-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/banner-rotator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/banner-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/carousel-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/different-size-photo-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/full-width-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/full-window-for-mobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/full-window-for-pc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/grid-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/image-gallery-with-vertical-thumbnail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/image-gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/image-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/introduction-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/nearby-image-partial-visible-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/nested-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/responsive-slider-div-span.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/responsive-slider-float-text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/scrolling-logo-thumbnail-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/simple-fade-slideshow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/tab-slider-text-vertical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/tab-slider-text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/thumbnail-navigator-with-arrows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/demos/vertical-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/auto-center-with-no-scale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/img/cover/0001-B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/img/cover/0001-BL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/img/cover/0001-BR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/img/cover/0001-L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/img/cover/0001-R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/img/cover/0001-T.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/img/cover/0001-TL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/img/cover/0001-TR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/layout-arrangement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/overlay-cover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/play-pause-playto-goto-next-prev-autoplay-api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/simple-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/slide-definition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/slider-with-arrow-navigator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/slider-with-bullet-navigator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/slider-with-fixed-static-element.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/slider-with-progress-bar-api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/slider-with-slideshow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/sync-2-sliders-api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/ui-definition-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/ui-definition-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples-jquery/validated-html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/auto-center-with-no-scale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/img/cover/0001-B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/img/cover/0001-BL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/img/cover/0001-BR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/img/cover/0001-L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/img/cover/0001-R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/img/cover/0001-T.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/img/cover/0001-TL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/img/cover/0001-TR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/layout-arrangement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/overlay-cover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/play-pause-playto-goto-next-prev-autoplay-api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/simple-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/slide-definition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/slider-with-arrow-navigator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/slider-with-bullet-navigator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/slider-with-fixed-static-element.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/slider-with-progress-bar-api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/slider-with-slideshow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/sync-2-sliders-api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/ui-definition-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/ui-definition-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/examples/validated-html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/1920/c-navigator-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/1920/c-phone-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/1920/c-slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/1920/c-slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/1920/hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/1300x500/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/1300x500/002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/1300x500/003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/026.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/200x150/027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/600x240/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/600x240/013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/640x960/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/640x960/002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/640x960/003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/640x960/004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/640x960/005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/640x960/006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/640x960/007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/640x960/008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/004-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/005-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/006-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/007-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/008-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/009-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/010-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/013-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/014-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/015-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/016-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/017-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/018-s99x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/720x480/022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/960x640/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/960x640/002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/960x640/003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/960x640/004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/960x640/005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/960x640/006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/960x640/007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/960x640/008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/026.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/031-s190x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/032-s190x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/033-s190x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/033.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/034-s190x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/035-s190x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/036-s190x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/036.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/037-s190x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/038-s190x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/039-s190x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/039.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/040-s190x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/040.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/041.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/043.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/044.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/045.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/046.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/047.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/048.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/049.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/051.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/gallery/980x380/052.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/icons/icon_chrome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/icons/icon_firefox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/icons/icon_ie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/icons/icon_opera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/icons/icon_safari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/01/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/01/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/01/butterfly-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/01/butterfly-dark-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/01/butterfly-light-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/01/butterfly-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/01/dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/01/layer-blurred-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/01/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/02/circle-hollow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/02/circle-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/02/hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/02/mock-ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/02/mock-laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/02/mock-pc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/02/mock-phone-slider-flat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/02/mock-phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/02/swipe-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/android.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/chrome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/edge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/firefox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/hexagon-hollow-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/hexagon-hollow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/hexagon-solid-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/hexagon-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/ie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/ios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/opera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/safari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/03/windows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/img/present/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/js/jssor.slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-051.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-052.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-053.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-054.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-055.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-056.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-071.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-072.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-073.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-074.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-081.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-082.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-091.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-092.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-093.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/arrow-094.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-031.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-032.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-033.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-034.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-035.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-036.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-051.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-052.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-053.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-054.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-055.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-056.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-057.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-058.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-061.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-062.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-063.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-064.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-071.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/bullet-072.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/img/slide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/img/thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/loading-003-oval.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/loading-004-double-tail-spin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/loading-005-circles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/loading-006-tail-spin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/loading-008-ball-triangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/loading-009-spin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/thumbnail-051.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/thumbnail-052.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/thumbnail-061.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/thumbnail-062.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/thumbnail-091.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/skin/thumbnail-092.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/svg/loading/static-svg/ball-triangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/svg/loading/static-svg/circles.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/svg/loading/static-svg/double-tail-spin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/svg/loading/static-svg/oval.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/svg/loading/static-svg/spin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/svg/loading/static-svg/tail-spin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/terms-of-use.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/transitions/slideshow-transition-builder-controller.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jssor.slider.devpack/transitions/slideshow-transitions(360).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listar_imoveis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listar_usuario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outros/proto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outros/proto.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/IMG-20171130-WA0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/IMG-20171130-WA0006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/IMG-20171130-WA0084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/IMG-20171130-WA0088.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/IMG-20171130-WA0092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/IMG-20171130-WA0097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/IMG-20171130-WA0099.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/IMG-20171130-WA0106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/casa1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/casa3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/colonia1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/colonia2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/colonia3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/colonia4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/fotobanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/kitnet7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/sublojaresende01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/sublojaresende02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/sublojaresende03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/sublojaresende04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/sublojaresende05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/sublojaresende06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/sublojaresende07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/sublojaresende08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/Connections/administranego.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/baguetteBox.js-dev/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/baguetteBox.js-dev/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/baguetteBox.js-dev/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/cad_usuario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/detalhes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/fancyBox3/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/fancyBox3/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Ajuste de fotos.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Colonia/WhatsApp Image 2017-11-26 at 10.06.35.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Colonia/WhatsApp Image 2017-11-26 at 10.06.38.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Colonia/WhatsApp Image 2017-11-26 at 10.06.41 (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Colonia/WhatsApp Image 2017-11-26 at 10.06.41.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Colonia/colonia1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Colonia/colonia2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Colonia/colonia3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Colonia/colonia4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/WhatsApp Image 2017-11-26 at 10.03.52.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/WhatsApp Image 2017-11-26 at 10.03.53.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/WhatsApp Image 2017-11-26 at 10.03.54.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/WhatsApp Image 2017-11-26 at 10.03.55 (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/WhatsApp Image 2017-11-26 at 10.03.55 (2).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/WhatsApp Image 2017-11-26 at 10.03.55.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/WhatsApp Image 2017-11-26 at 10.03.56 (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/WhatsApp Image 2017-11-26 at 10.03.56.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/sublojaresende01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/sublojaresende02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/sublojaresende03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/sublojaresende04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/sublojaresende05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/sublojaresende06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/sublojaresende07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/Resende/sublojaresende08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/WhatsApp Image 2017-11-22 at 16.50.50.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/bg-header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/casa1-detalhe-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/casa1-detalhe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/casa1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/casa2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/casa3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/casa4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/casa5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/casa6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/contabil1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/creci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/creci1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/derlan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/imagem1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/imagem2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/imagem3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/WhatsApp Image 2017-11-26 at 10.01.50.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/WhatsApp Image 2017-11-26 at 10.01.51 (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/WhatsApp Image 2017-11-26 at 10.01.51.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/WhatsApp Image 2017-11-26 at 10.01.52 (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/WhatsApp Image 2017-11-26 at 10.01.52.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/WhatsApp Image 2017-11-26 at 10.01.53 (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/WhatsApp Image 2017-11-26 at 10.01.53.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/fotobanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/kitnet1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/kitnet2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/kitnet3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/kitnet4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/kitnet5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/kitnet6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/kitnet/kitnet7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/logo-im-mx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/logo.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/logo_administra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/logo_administra_empresa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/logo_consultoria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/logo_edificacoes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/logo_edificacoes_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/logo_padrao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/thumb modelo.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/thumb1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/thumb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/thumb3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/thumb4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/thumb5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/thumb6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/vantagem-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/vantagem-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/vantagem-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/vantagem-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/index.html.KINGHOST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/index.html.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/index.php.padrao" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/inserir.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/inserirRegistro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/listar_imoveis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/listar_usuario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/phpinfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/robots.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="687">
+              <caret line="269" column="14" lean-forward="true" selection-start-line="269" selection-start-column="14" selection-end-line="269" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/baguetteBox.js-dev/package.json" />
+      <path value="$PROJECT_DIR$/fontawesome-free-5.0.10/advanced-options/use-with-node-js/fontawesome-common-types/package.json" />
+      <path value="$PROJECT_DIR$/fontawesome-free-5.0.10/advanced-options/use-with-node-js/fontawesome-free-brands/package.json" />
+      <path value="$PROJECT_DIR$/fontawesome-free-5.0.10/advanced-options/use-with-node-js/fontawesome-free-regular/package.json" />
+      <path value="$PROJECT_DIR$/fontawesome-free-5.0.10/advanced-options/use-with-node-js/fontawesome-free-solid/package.json" />
+      <path value="$PROJECT_DIR$/fontawesome-free-5.0.10/advanced-options/use-with-node-js/fontawesome-free-webfonts/package.json" />
+      <path value="$PROJECT_DIR$/fontawesome-free-5.0.10/advanced-options/use-with-node-js/fontawesome/package.json" />
+      <path value="$PROJECT_DIR$/jssor.slider.devpack/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/www/baguetteBox.js-dev/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="administraSass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="administraSass" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="145eb127-6a80-4cae-9a6d-091bbbf93538" name="Default" comment="" />
+      <created>1532271254628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532271254628</updated>
+      <workItem from="1532271258724" duration="929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="929000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="npm" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="269" column="14" lean-forward="true" selection-start-line="269" selection-start-column="14" selection-end-line="269" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
