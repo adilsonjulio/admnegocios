@@ -171,15 +171,15 @@
 		
 	<div class="container-fluid py-3">
 		<div class="container pt-2" style="background: #f1f1f1;">
-			<form action="busca.php" method="get" enctype="multipart/form-data" target="_self" id="formBusca">
+			<form action="busca.php" method="post" enctype="multipart/form-data" target="_self" id="formBusca">
 				<div class="form-row">
 					<div class="form-group col-md-4">
 					  <label for="inputEmail4">Palavra-chave</label>
-					  <input name="campoBusca" type="text" class="form-control" id="campoBusca" placeholder="Digite aqui a palavra chave">
+					  <input name="busca" type="text" class="form-control" id="campoBusca" placeholder="Digite a palavra chave">
 					</div>
 					<div class="form-group col-md-4">
 					  <label for="inputEmail4">C&oacute;digo de referência</label>
-					  <input type="email" class="form-control" id="inputEmail4" placeholder="Digite aqui o código">
+					  <input type="email" class="form-control" id="inputEmail4" placeholder="Digite o código">
 					</div>
 					<div class="form-group col-md-4">
 					  <label for="inputState">Tipo</label>
@@ -195,11 +195,11 @@
 				<div class="form-row">
 					<div class="form-group col-md-3">
 					  <label for="inputState">Cidade</label>
-					  <input type="email" class="form-control" id="inputEmail4" placeholder="Digite aqui a cidade">
+					  <input type="email" class="form-control" id="inputEmail4" placeholder="Digite a cidade">
 					</div>
 					<div class="form-group col-md-3">
 					  <label for="inputState">Bairro</label>
-					  <input type="email" class="form-control" id="inputEmail4" placeholder="Digite aqui o bairro">
+					  <input type="email" class="form-control" id="inputEmail4" placeholder="Digite o bairro">
 					</div>
 					<div class="form-group col-md-3">
 					  <label for="inputState">Valor m&aacute;ximo</label>
