@@ -141,7 +141,7 @@
 
   <div class="container-fluid py-3">
     <div class="container pt-2" style="background: #f1f1f1;">
-      <form action="busca.php" method="post" enctype="multipart/form-data" target="_self" id="formBusca">
+      <form name="search_form" action="results.php" method="post" enctype="multipart/form-data" target="_self" id="formBusca">
         <div class="form-row">
           <div class="form-group col-md-4">
             <label for="inputEmail4">Palavra-chave</label>
@@ -165,7 +165,7 @@
         <div class="form-row">
           <div class="form-group col-md-3">
             <label for="inputState">Cidade</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Digite aqui a cidade">
+            <input type="text" name="busca" class="form-control" placeholder="Digite aqui a cidade">
           </div>
           <div class="form-group col-md-3">
             <label for="inputState">Bairro</label>
@@ -211,7 +211,7 @@
 
           $recebe_busca = $_POST['busca'];
 
-          $consulta = $conexao->query("SELECT * FROM imoveis WHERE titulo LIKE CONCAT ('%', '$recebe_busca', '%') OR descricao LIKE CONCAT ('%', '$recebe_busca', '%')");
+          $consulta = $conexao->query("SELECT * FROM imoveis WHERE descricao LIKE CONCAT ('%', '$recebe_busca', '%') OR cidade LIKE ('$recebe_busca') OR tipo LIKE ('$recebe_busca')");
 
           ?> 
 
