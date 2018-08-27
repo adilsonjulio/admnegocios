@@ -8,3 +8,13 @@ Senha: administra123
 BANCO DE DADOS MYSQL
 Usuário: administranego
 Senha: adm1234
+
+
+Novo Domínio: admnegocios.com
+Senha FTP? adm1234
+
+
+Host FTP: ftp.admnegocios.com
+
+Usuário FTP: admnegocios
+

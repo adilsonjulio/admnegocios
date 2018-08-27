@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: mysql05-farm62.kinghost.net
--- Tempo de geração: 21/08/2018 às 15:49
+-- Tempo de geração: 24/08/2018 às 09:14
 -- Versão do servidor: 5.6.37-log
 -- Versão do PHP: 5.3.28
 

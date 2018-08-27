@@ -5,7 +5,7 @@
 	  <!-- Required meta tags -->
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Administra Neg&oacute;cios</title>
+	  <title>Administra Neg&oacute;cios</title>
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="src/css/bootstrap.css">
@@ -65,6 +65,13 @@
     });
     </script>
 
+		<script type="text/javascript">
+		<!--
+		function abreJanela(URL) {
+		location.href = URL; // se for popup utiliza o window.open
+		}
+		</script>
+
 	</head>
     
 <body data-spy="scroll" data-target=".navbar" data-offset="150">
@@ -74,32 +81,33 @@
   include 'conexao.php';
 
   ?>
-	<div class="container-fluid bg-dark">  
-	<div class="container">
-	  <ul class="nav justify-content-end py-2">
-	  <li class="nav-item">
-	    <a class="nav-link text-white font-weight-normal display-5 border-right scroll" href="#contato">Central de Atendimento (24) 3323-1040 / 3328-6600</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link text-white font-weight-normal display-5 border-right" href="http://api.whatsapp.com/send?1=pt_BR&phone=5524988731040"><img src="img/whatsapp-24.png" style="margin-top:-4px;">    Venda (24) 98873-1040</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link text-white font-weight-normal display-5" href="#"><img src="img/facebook-24.png" style="margin-top:-4px;"></a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link font-weight-normal display-5" href="https://www.instagram.com/aministranegocios/"><img src="img/instagram-24.png" style="margin-top:-4px;"></a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link font-weight-normal text-white display-5" href="formLogon.php"><i class="fas fa-lock" style="margin-top:-4px;"></i></a>
-	  </li>
-	</ul>
-	</div>
+
+  	<div class="container-fluid bg-dark">  
+	  	<div class="container">
+	  		<ul class="nav justify-content-end py-2">
+	  			<li class="nav-item">
+	  				<a class="nav-link text-white font-weight-normal display-5 border-right scroll" href="#contato">Central de Atendimento (24) 3323-1040 / 3328-6600</a>
+	  			</li>
+	  			<li class="nav-item">
+	  				<a class="nav-link text-white font-weight-normal display-5 border-right" href="http://api.whatsapp.com/send?1=pt_BR&phone=5524988731040"><img src="img/whatsapp-24.png" style="margin-top:-4px;">    Venda (24) 98873-1040</a>
+	  			</li>
+	  			<li class="nav-item">
+	  				<a class="nav-link text-white font-weight-normal display-5" href="#"><img src="img/facebook-24.png" style="margin-top:-4px;"></a>
+	  			</li>
+	  			<li class="nav-item">
+	  				<a class="nav-link font-weight-normal display-5" href="https://www.instagram.com/aministranegocios/"><img src="img/instagram-24.png" style="margin-top:-4px;"></a>
+	  			</li>
+	  			<li class="nav-item">
+	  				<a class="nav-link font-weight-normal text-white display-5" href="formLogon.php"><i class="fas fa-lock" style="margin-top:-4px;"></i></a>
+	  			</li>
+	  		</ul>
+	  	</div>
 	</div>
 
 	<div class="container-fluid no-padding">
 		<!-- Menu -->
 		<nav class="navbar navbar-expand-sm navbar-light bg-faded" style="background:#fff;">
-            <div class="container">
+            <div class="container my-2">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -131,80 +139,115 @@
 		</nav>
 	</div>        
 
-		<!-- Topo -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="img/imagem3.jpg" height="500" alt="First slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h3></h3>
-              </div>                
-            </div>
-            
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/imagem3.jpg" height="500" alt="Third slide">
-            </div>
-          </div>
-          
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>        
 
+ 		<!-- Carousel -->
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<?php
+					$controle_ativo = 2;
+					$controle_num_slide = 1;
+					$consulta = $conexao->query("SELECT * FROM carousel ORDER BY id ASC LIMIT 3");
+					while ($img_carousel = $consulta->fetch(PDO::FETCH_ASSOC)) {
+						if($controle_ativo == 2){ ?>
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li><?php
+							$controle_ativo = 1;
+						}else { ?>
+							<li data-target="#carouselExampleIndicators" data-slide-to="$controle_num_slide"></li>
+							<?php
+							}
+						}
+				?>
+			</ol>
+			
+			<div class="carousel-inner">
+				<?php
+					$controle_ativo = 2;
+					$consulta = $conexao->query("SELECT * FROM carousel ORDER BY id DESC LIMIT 3");
+					while ($img_carousel = $consulta->fetch(PDO::FETCH_ASSOC)) {
+
+						if($controle_ativo == 2){ ?>
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="upload/<?php echo $img_carousel['foto1'];?>" height="500" alt="First slide">
+								<div class="carousel-caption d-none d-md-block">
+									<h3><?php echo $img_carousel['titulo'];?></h3>
+								</div>                
+							</div><?php
+							$controle_ativo = 1;
+						}else { ?>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="upload/<?php echo $img_carousel['foto1'];?>" height="500" alt="First slide">
+								<div class="carousel-caption d-none d-md-block">
+									<h3><?php echo $img_carousel['titulo'];?></h3>
+								</div>                
+							</div><?php
+							}
+						}
+				?>
+			</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+		</div>        
 	<div class="container-fluid  bg-color-2">	
 		<div class="container">
 			<div class="row">
-			<h3 class="text-white font-weight-normal m-0 py-2">BUSCA DE IM&Oacute;VEIS</h3>
+			<h3 class="text-white font-weight-normal m-0 py-4"></h3>
 		</div>
 		</div>
 	</div>	
 		
-	<div class="container-fluid py-3">
-		<div class="container pt-2" style="background: #f1f1f1;">
-			<form action="busca.php" method="post" enctype="multipart/form-data" target="_self" id="formBusca">
+	<div class="container-fluid mb-4">
+		<div class="container py-3 bg-color-3">
+			<form action="busca1.php" method="POST" enctype="multipart/form-data" target="_self" id="formBusca">
 				<div class="form-row">
 					<div class="form-group col-md-4">
 					  <label for="inputEmail4">Palavra-chave</label>
-					  <input name="busca" type="text" class="form-control" id="campoBusca" placeholder="Digite a palavra chave">
+					  <input name="nome_curso" id="busca" type="text" class="form-control" placeholder="Digite a palavra chave">
 					</div>
-					<div class="form-group col-md-4">
-					  <label for="inputEmail4">C&oacute;digo de referência</label>
-					  <input type="email" class="form-control" id="inputEmail4" placeholder="Digite o código">
-					</div>
-					<div class="form-group col-md-4">
-					  <label for="inputState">Tipo</label>
-					  <select id="inputState" class="form-control">
-						<option selected>Qualquer</option>
-						<option>Casas</option>
-						<option>Apartamentos</option>
-						<option>Terrenos</option>
-						<option>Loca&ccedil;&atilde;o</option>
-					  </select>
-					</div>
-				</div>
-				<div class="form-row">
-					<div class="form-group col-md-3">
-					  <label for="inputState">Cidade</label>
-					  <input type="email" class="form-control" id="inputEmail4" placeholder="Digite a cidade">
-					</div>
-					<div class="form-group col-md-3">
+	 	         <div class="form-group col-md-4">
+		            <label for="inputState">Cidade</label>
+		            <select name="conteudo_curso" class="form-control">
+		              <option selected>Selecione</option>
+		                <?php
+		                $consulta = $conexao->query("SELECT * FROM imoveis GROUP BY cidade"); 
+		                while ($exibe = $consulta->fetch(PDO::FETCH_ASSOC)) {
+		                ?>
+		              <option><?php echo $exibe['cidade'];?>
+		              </option>
+		                <?php } ?>
+		              </select>
+		          </div>
+
+ 	 	         <div class="form-group col-md-4">
+		            <label for="inputState">Tipo de Negócios</label>
+		            <select name="paginas" onchange="javascript: abreJanela(this.value)" class="form-control">
+			            <option selected>Selecione</option>
+							<option value="busca.php">VENDA</option>
+							<option value="cadastroImovel.php">ALUGUEL</option>
+	              	</select>
+		          </div>
+ 	 	         <div class="form-group col-md-4">
+		            <label for="inputState">Tipo de Negócios</label>
+		            <select name="paginas" onchange="javascript: abreJanela(this.value)" class="form-control">
+			            <option selected>Selecione</option>
+							<option value="busca.php">VENDA</option>
+							<option value="cadastroImovel.php">ALUGUEL</option>
+	              	</select>
+		          </div>
+<!--				<div class="form-row">
+ 					<div class="form-group col-md-3">
 					  <label for="inputState">Bairro</label>
 					  <input type="email" class="form-control" id="inputEmail4" placeholder="Digite o bairro">
 					</div>
-					<div class="form-group col-md-3">
-					  <label for="inputState">Valor m&aacute;ximo</label>
+ -->					<div class="form-group col-md-4">
+					  <label for="inputState">Faixa de Valor</label>
 					  <select id="inputState" class="form-control">
-						<option selected>Qualquer</option>
+						<option selected>Selecione</option>
 						<option>R$ 5.000,00 </option>
 						<option>R$ 10.000,00 </option>
 						<option>R$ 20.000,00 </option>
@@ -217,20 +260,19 @@
 						<option>R$ 600.000,00 </option>
 					  </select>
 					</div>
-					<div class="form-group col-md-3">
-							 <button type="submit" class="btn btn-primary px-4 py-1 float-right" style="margin-top: 30px !important; font-size: 20px; background: #d50000; border: #000;">Buscar im&oacute;veis</button>
+					<div class="form-group col-md-4">
+							 <button type="submit" class="btn btn-primary px-5 py-1 float-right" style="margin-top: 30px !important; font-size: 20px; background: #d50000; border: #000;">BUSCAR IMÓVEIS</button>
 					</div>
 				</div>
 			</form>
 		</div>	
 	</div>			
 		
-	<section class="" id="imoveis" class="pb-5 bg-faded wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200"; style="background:#f2f2f2; padding-bottom: 20px;">
-		<div class="container pt-4">
+	<section id="imoveis" class="pb-5 bg-color-3 border-top border-color-6">
+		<div class="container pt-5">
 			<div class="row mb-1">
-				<div class="col-md-12 text-center">
-                <h3>IM&Oacute;VEIS EM DESTAQUE</h3>
-                <hr class="divisor-vermelho">
+				<div class="col-md-12">
+                <h3 class="text-color-5"><i class="fas fa-home text-color-1"></i>  IMÓVEIS EM DESTAQUE</h3>
 				</div>
 			</div>
 
@@ -271,7 +313,7 @@
           ?> 
 
 				<div class="col-sm-4 col-md-4 pl-1 pb-5">
-					<a href="detalhes.php?id=<?php echo $mostra->id;?>" style="text-decoration: none;">
+					<a href="detalhes2.php?id=<?php echo $mostra->id;?>" style="text-decoration: none;">
 					<div class="hoverzoom" style="box-shadow: 0 0 5px rgba(0,0,0,0.2);">
 						<img src="upload/<?php echo $mostra->foto1;?>" class="img-fluid">
 						<div class="retina" style="padding: 0px;">

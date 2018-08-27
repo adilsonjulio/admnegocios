@@ -151,7 +151,8 @@
 			<div class="col-sm-8 text-center">
 				<a href="formCadastrar.php" class="btn btn-outline-dark btn-lg btn-block mt-2">Cadastrar Imóveis</a><br>
 				<a href="lista.php" class="btn btn-outline-danger btn-lg btn-block mt-3">Alterar / Excluir Imóveis</a><br>
-				<a href="lista.php" class="btn btn-outline-dark btn-lg btn-block mt-3">Gerenciar Imóveis</a><br>
+        <a href="lista.php" class="btn btn-outline-dark btn-lg btn-block mt-3">Gerenciar Imóveis</a><br>
+				<a href="formCadastrar_Slide.php" class="btn btn-outline-dark btn-lg btn-block mt-3">Cadastrar Imagem do Banner</a><br>
 				<a href="formUsuario.php" class="btn btn-outline-danger btn-lg btn-block mt-3">Cadastro de Usuários</a><br>
 				<a href="" class="btn btn-outline-danger btn-lg btn-block mt-3 mb-5">Sair da Área Administrativa</a><br>
 			</div>
