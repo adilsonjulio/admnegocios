@@ -33,6 +33,11 @@
       }
       </style>
 
+      <style>
+        var placeholder = document.getElementById("entrada").getAttribute("placeholder");
+alert(placeholder);
+      </style>
+
     </head>
     
 <body data-spy="scroll" data-target=".navbar" data-offset="150">
@@ -107,7 +112,7 @@
   <div class="container-fluid bg-color-2 pt-0"> 
     <div class="container">
       <div class="row">
-        <h3 class="text-white font-weight-normal m-0 py-2">DETALHES DO IMÓVEIS</h3>
+        <h3 class="text-white font-weight-normal m-0 py-2">DETALHES DO IMÓVEL</h3>
       </div>
     </div>
   </div>  
@@ -115,12 +120,13 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-5 border-right">
+        <p>Cód. Ref.: 00<?php echo($exibir['id']);?></p>
         <h3><?php echo($exibir['titulo']);?></h3>
       </div>
-      <div class="col-4 order-1 border-right text-center">
+      <div class="col-4 order-1 border-right text-center mt-4">
         <h3><?php echo($exibir['cidade']); ?></h3>
       </div>
-      <div class="col-3 order-1 text-center">
+      <div class="col-3 order-1 text-center mt-4">
         <h2>R$ <?php echo number_format($exibir['preco'],2,',','.'); ?></h2>
       </div>
     </div>
@@ -203,26 +209,73 @@
           </a> 
          </ul>            
 
+<!--        
+        <?php
+        if (isset($_POST['BTEnvia'])) {
+          
+          //Variaveis de POST, Alterar somente se necessário 
+          //====================================================
+          $nome = $_POST['nome'];
+          $email = $_POST['email'];
+          $telefone = $_POST['telefone']; 
+          $mensagem = $_POST['mensagem'];
+          //====================================================
+          
+          //REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
+          //==================================================== 
+          $email_remetente = "admnegocios@admnegocios.com"; // deve ser uma conta de email do seu dominio 
+          //====================================================
+          
+          //Configurações do email, ajustar conforme necessidade
+          //==================================================== 
+          $email_destinatario = "adilson.setorfiscal@gmail.com"; // pode ser qualquer email que receberá as mensagens
+          $email_reply = "$email"; 
+          $email_assunto = "Contato do Site"; // Este será o assunto da mensagem
+          //====================================================
+          
+          //Monta o Corpo da Mensagem
+          //====================================================
+          $email_conteudo = "Nome = $nome \n"; 
+          $email_conteudo .= "Email = $email \n";
+          $email_conteudo .= "Telefone = $telefone \n"; 
+          $email_conteudo .= "Mensagem = $mensagem \n"; 
+          //====================================================
+          
+          //Seta os Headers (Alterar somente caso necessario) 
+          //==================================================== 
+          $email_headers = implode ( "\n",array ( "From: $email_remetente", "Reply-To: $email_reply", "Return-Path: $email_remetente","MIME-Version: 1.0","X-Priority: 3","Content-Type: text/html; charset=UTF-8" ) );
+          //====================================================
+          
+          //Enviando o email 
+          //==================================================== 
+          if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){ 
+            echo "<script>alert('Mensagem enviado com sucesso! Em breve iremos lhe responder.');document.location='http://www.admnegocios.com/index.php';</script>"; }
+              else{ 
+                  echo "</b>Falha no envio do E-Mail!</b>"; } 
+          //====================================================
+          } 
+          
+        ?>
+-->
             <div class="bg-light px-2 pt-2 mt-4">
                <p>Para obter mais informções sobre esse imóvel preenche o formulário abaixo.</p>
-               <form>
-                   <div class="form-group pt-1">
+                <form class="form-horizontal" method="POST" action="enviar.php" id="contato" enctype="multipart/form-data">   <div class="form-group pt-1">
                      <label for="exampleInputEmail1">Nome</label>
-                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu nome">
-                   </div>
-                   <div class="form-group">
-                     <label for="exampleInputPassword1">Telefone</label>
-                     <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Digie seu telefone">
+                     <input type="text" class="form-control" name="nome" id="nome" aria-describedby="emailHelp" placeholder="Digite seu nome">
                    </div>
                    <div class="form-group">
                      <label for="exampleInputEmail1">Email</label>
-                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
+                     <input type="text" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Digite seu email">
+                   </div>
+                   <div class="form-group">
+                     <label for="exampleInputPassword1">Telefone</label>
+                     <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Informe o seu telefone">
                    </div>
                     <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Olá, tenho interesse neste imóvel. Aguardo o contato. Obrigado."></textarea>
+                    <label for="exampleFormControlTextarea1">Mensagem</label>
+                    <textarea class="form-control" name="mensagem" id="entrada" rows="5" placeholder="Informa o código de referência do imóvel e suas dúvidas que em breve iremos lhe responder. Obrigado!"></textarea>
                   </div>
-                  <button type="submit" class="btn btn-primary">Enviar</button>
+                  <button type="submit" class="btn btn-color-2">Enviar</button>
                </form>
             </div>   
          </div>   
@@ -242,7 +295,7 @@
         <div class="container pt-3">
              <div class="row mb-1">
                   <div class="col-md-12 text-center">
-                        <h2 style="color: #D50000;">CONHE&Ccedil;A NOSSOS DIFERENCIAIS</h2>
+                        <h2 style="color: #D50000;">CONHEÇA NOSSOS DIFERENCIAIS</h2>
                         <hr class="divisor-vermelho">
                   </div>
              </div>

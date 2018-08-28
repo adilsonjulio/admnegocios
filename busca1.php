@@ -167,7 +167,7 @@
 	<div class="container pt-4">
 		<div class="row">
 
-      <a href="index.php">Voltar</a><br><br><?php
+      <?php
 			
       $verifica = 0;
 
@@ -226,6 +226,9 @@
 			</div>
 			<?php } ?>
 		</div>
+
+    <a href="index.php">Voltar</a><br><br>
+
 	</div>
 
 </section>    <!-- Fim seção imóveis para locação  -->

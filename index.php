@@ -104,49 +104,75 @@
 	  	</div>
 	</div>
 
-	<div class="container-fluid no-padding">
-		<!-- Menu -->
-		<nav class="navbar navbar-expand-sm navbar-light bg-faded" style="background:#fff;">
-            <div class="container my-2">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Brand -->
-            <a class="navbar-brand" href="index.php">
-                <img src="img/logo_administra_padrao.png" width="220">
-            </a>
-            <!-- Links -->
-            <div class="collapse navbar-collapse justify-content-end" id="nav-content">   
-                <ul class="navbar-nav" style="font-size: 22px; font-weight: 600;">
-                    <li class="nav-item">
-                    <a class="nav-link ml-4 text-color-1 scroll" href="#inicio">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link ml-4 text-color-1 scroll" href="#empresa">Empresa</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link ml-4 text-color-1 scroll" href="#imoveis">Im&oacute;veis</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link ml-4 text-color-1  scroll" href="#servicos">Servi&ccedil;os</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link ml-4 text-color-1 scroll" href="#contato">Contato</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-		</nav>
-	</div>        
+		<div class="container-fluid no-padding">
+			<!-- Menu -->
+			<nav class="navbar navbar-expand-sm navbar-light bg-faded" style="background:#fff;">
+				<div class="container my-2">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!-- Brand -->
+					<a class="navbar-brand" href="index.php">
+						<img src="img/logo_administra_padrao.png" width="220">
+					</a>
+					<!-- Links -->
+					<div class="collapse navbar-collapse justify-content-end" id="nav-content">   
+						<ul class="navbar-nav" style="font-size: 20px; font-weight: 600;">
+							<li class="nav-item">
+								<a class="nav-link ml-4 text-color-1 scroll" href="#inicio">Home</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-color-1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Imóveis à venda
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item text-color-1" href="busca2.php?busca=venda">Casas</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item text-color-1" href="busca2.php?busca=chácara">Apartamentos</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item text-color-1" href="#">Terrenos</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item text-color-1" href="#">Sítios</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item text-color-1" href="#">Lojas</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-color-1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Locação
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item text-color-1" href="#">Casas</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item text-color-1" href="#">Apartamentos</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item text-color-1" href="#">Lojas</a>
+									<div class="dropdown-divider"></div>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link ml-4 text-color-1 scroll" href="#empresa">Empresa</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link ml-4 text-color-1  scroll" href="#servicos">Servi&ccedil;os</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link ml-4 text-color-1 scroll" href="#contato">Contato</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>        
 
 
-		<!-- Carousel -->
+ 		<!-- Carousel -->
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<?php
 					$controle_ativo = 2;
 					$controle_num_slide = 1;
-					$consulta = $conexao->query("SELECT * FROM carousel ORDER BY id ASC LIMIT 6");
+					$consulta = $conexao->query("SELECT * FROM carousel ORDER BY id ASC LIMIT 3");
 					while ($img_carousel = $consulta->fetch(PDO::FETCH_ASSOC)) {
 						if($controle_ativo == 2){ ?>
 							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li><?php
@@ -162,7 +188,7 @@
 			<div class="carousel-inner">
 				<?php
 					$controle_ativo = 2;
-					$consulta = $conexao->query("SELECT * FROM carousel ORDER BY id DESC LIMIT 6");
+					$consulta = $conexao->query("SELECT * FROM carousel ORDER BY id DESC LIMIT 3");
 					while ($img_carousel = $consulta->fetch(PDO::FETCH_ASSOC)) {
 
 						if($controle_ativo == 2){ ?>
@@ -193,17 +219,16 @@
 					<span class="sr-only">Next</span>
 				</a>
 		</div>        
-
 	<div class="container-fluid  bg-color-2">	
 		<div class="container">
 			<div class="row">
-			<h3 class="text-white font-weight-normal m-0 py-2">BUSCA DE IM&Oacute;VEIS</h3>
+			<h3 class="text-white font-weight-normal m-0 py-4"></h3>
 		</div>
 		</div>
 	</div>	
 		
-	<div class="container-fluid py-3">
-		<div class="container py-3" style="background: #f1f1f1;">
+	<div class="container-fluid mb-4">
+		<div class="container py-3 bg-color-3">
 			<form action="busca1.php" method="POST" enctype="multipart/form-data" target="_self" id="formBusca">
 				<div class="form-row">
 					<div class="form-group col-md-4">
@@ -262,19 +287,18 @@
 					  </select>
 					</div>
 					<div class="form-group col-md-4">
-							 <button type="submit" class="btn btn-primary px-4 py-1 float-right" style="margin-top: 30px !important; font-size: 20px; background: #d50000; border: #000;">Buscar im&oacute;veis</button>
+							 <button type="submit" class="btn btn-primary px-5 py-1 float-right" style="margin-top: 30px !important; font-size: 20px; background: #d50000; border: #000;">BUSCAR IMÓVEIS</button>
 					</div>
 				</div>
 			</form>
 		</div>	
 	</div>			
 		
-	<section class="" id="imoveis" class="pb-5 bg-faded wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200"; style="background:#f2f2f2; padding-bottom: 20px;">
-		<div class="container pt-4">
+	<section id="imoveis" class="pb-5 bg-color-3 border-top border-color-6">
+		<div class="container pt-5">
 			<div class="row mb-1">
-				<div class="col-md-12 text-center">
-                <h3>IM&Oacute;VEIS EM DESTAQUE</h3>
-                <hr class="divisor-vermelho">
+				<div class="col-md-12">
+                <h3 class="text-color-5"><i class="fas fa-home text-color-1"></i>  IMÓVEIS EM DESTAQUE</h3>
 				</div>
 			</div>
 

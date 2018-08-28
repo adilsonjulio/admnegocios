@@ -21,7 +21,7 @@ try {
 
     move_uploaded_file($recebe_foto1['tmp_name'], $destino.$img_nome1);             
     $resizeObj = new resize($destino.$img_nome1);
-    $resizeObj -> resizeImage(1024, 768, 'crop');
+    $resizeObj -> resizeImage(1200, 450, 'crop');
     $resizeObj -> saveImage($destino.$img_nome1, 100);  
  
   
